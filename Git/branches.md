@@ -13,3 +13,23 @@ git branch -d <local-branch>
 ```git
 git branch -D <local-branch>
 ```
+
+## Update list of remote branches
+
+```git
+git remote update origin --prune
+```
+
+## View branches
+
+### View remote branches only
+
+```git
+git branch -r
+```
+
+### View local and remote branches
+
+```git
+git branch -a
+```
